@@ -63,7 +63,7 @@ class Build : NukeBuild
     AbsolutePath WebsiteDirectory => RootDirectory / "website";
     AbsolutePath TestResultDirectory => ArtifactsDirectory / "test-results";
 
-    Project PackageProject => Solution.GetProject("LiveLinq");
+    Project PackageProject => Solution.GetProject("ComposableCollections.AspNetCore");
     
     IEnumerable<Project> TestProjects => Solution.GetProjects("*.Tests");
     
