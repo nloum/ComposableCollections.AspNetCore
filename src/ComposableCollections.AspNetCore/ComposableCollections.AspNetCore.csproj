@@ -5,7 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="ComposableCollections" Version="1.0.0-alpha0076" />
+      <PackageReference Include="ComposableCollections" Version="1.0.0-alpha0084" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     </ItemGroup>
 
